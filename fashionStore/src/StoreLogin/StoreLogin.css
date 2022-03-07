@@ -1,0 +1,32 @@
+/*body{
+    border: 5px double pink;
+    padding: 10px
+}*/
+.login-form{
+    border: 5px double cornflowerblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+label{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 60px;
+}
+input{
+    text-align: center;
+}
+.lButton{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+#button3{
+    border: 2px solid cornflowerblue;
+    border-radius: 6px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f2d7ee;
+    font-weight: bold;
+    width: 40%;
+    font-size: 14px;
+}
+  

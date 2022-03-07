@@ -1,0 +1,122 @@
+table{
+  border: 4px solid cornflowerblue;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+  border-collapse:separate;
+}
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding-left: 4px;
+  padding-right: 15px;
+  padding-bottom: 4px;
+  text-decoration: underline solid 3px;
+  background-color: #f2d7ee;
+  border-radius:6px;
+}
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding-left: 4px;
+  padding-right: 15px;
+  padding-bottom: 4px;
+  border-radius:6px;
+}
+h1{
+  text-align: center;
+  text-decoration: underline wavy 5px cornflowerblue;
+  font-family: "Times New Roman", Times, serif;
+}
+h3{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+p{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border: dotted 5px cornflowerblue;
+  padding: 5px;
+  margin-left: 350px;
+  margin-right: 350px;
+  font-weight: bold;
+}
+.button{
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+#button1{
+  border: 2px solid cornflowerblue;
+  border-radius: 6px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f2d7ee;
+  width: 14%;
+  padding: 5px 3px 5px 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#button2{
+  border: 2px solid cornflowerblue;
+  border-radius: 6px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f2d7ee;
+  width: 10%;
+  padding: 5px 2px 5px 2px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#button4{
+  border: 1px solid white;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius:8px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  padding: 4px;
+  margin-left: 1100px;
+  height: 50px;
+  width: 100px;
+}
+
+#myInput{
+  background-color: rgb(243, 243, 243);
+  width: 40%; 
+  font-size: 14px; 
+  padding: 10px 15px 10px 40px; 
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  margin-left: 350px;
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 80%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: center; 
+  padding: 12px; 
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+a{
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius:2px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 4px;
+}
